@@ -9,7 +9,6 @@ div {
     border: 2px solid black;
     color: white;
     font-size: 24px;
-    display: inline-block;
 }
 
 #static {
@@ -46,4 +45,18 @@ div {
 #sticky {
     position: sticky;
     top: 10px;
+}
+
+.flex-wrapper {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 12px;
 }
