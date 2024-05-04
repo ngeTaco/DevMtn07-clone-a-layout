@@ -1,5 +1,11 @@
 body {
     height: 250vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p {
+    margin: 0;
 }
 
 div {
@@ -59,4 +65,22 @@ div {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 12px;
+}
+
+header {
+    box-sizing: border-box;
+    height: 75px;
+    width: 100%;
+    background-color: cadetblue;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
 }
