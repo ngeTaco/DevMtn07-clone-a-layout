@@ -1,3 +1,7 @@
+body {
+    height: 250vh;
+}
+
 div {
     height: 200px;
     width: 200px;
@@ -5,4 +9,40 @@ div {
     border: 2px solid black;
     color: white;
     font-size: 24px;
+}
+
+#static {
+    position: static;
+}
+
+#relative {
+    position: relative;
+    /* left: 50px;
+    top: 50px; */
+}
+
+#absolute-parent {
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    position: relative;
+}
+
+#absolute {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#fixed {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+}
+
+#sticky {
+    position: sticky;
+    top: 10px;
 }
