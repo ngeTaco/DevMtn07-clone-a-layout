@@ -1,11 +1,125 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
+/* body {
     background: magenta;
-}
+} */
 
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0px 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 85%;
+
+}
+
+header span:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+.menuicon {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+div.headlines {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+    flex-direction: column;
+}
+
+.spaceflight {
+    background-image: url("./media/bg_spaceflight.jpg");
+}
+
+.multiplanetary {
+    background-image: url("./media/bg_multiplanetary.jpg");
+}
+
+.starlinkmission {
+    background-image: url("./media/bg_starlink.jpg");
+}
+
+.maxarmission {
+    background-image: url("./media/bg_maxar.jpg");
+}
+
+.flighttest {
+    background-image: url("./media/bg_flighttest.jpg");
+}
+
+p.news {
+    font-size: 125%;
+    font-weight: lighter;
+    padding-bottom: 25;
+}
+
+section h1 {
+    font-size: 300%;
+    padding-bottom: 25px;
+}
+
+.navbutton {
+    display: flex;
+    border: 2px solid white;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbutton:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 75%;
+}
+
+footer span:hover {
+    color: gray;
 }
